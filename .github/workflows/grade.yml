@@ -192,7 +192,7 @@ jobs:
                   )
                   file.write(
                       "An activity must start with `PRE_` or `LAB_` "
-                      "and contain `src/` and `test_src/`.\n"
+                      "and contain `src/` and `test_activity/`.\n"
                   )
               else:
                   file.write("| Activity | Result |\n")
